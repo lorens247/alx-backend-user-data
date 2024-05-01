@@ -88,5 +88,6 @@ def main():
             log_record = logging.LogRecord(*args)
             info_logger.handle(log_record)
 
+
 if __name__ == "__main__":
     main()
